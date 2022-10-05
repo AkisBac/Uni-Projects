@@ -1,0 +1,23 @@
+import os
+
+
+# DATA PARAMETERS
+NORMALIZE = 0
+
+# NETWORK PARAMETERS
+DICT_DIM = 128
+IMAGE_SIZE = None
+IMAGE_SIZE2 = 512
+NUM_CHANNELS = 1
+NUM_FILTERS = 100
+input_kernel_size = 9
+output_kernel_size = 5
+
+# TRAINING PARAMETERS
+MAX_NUM_TRAIN = 10000
+VARIABLE_LEARNING_RATE = 0
+
+epochs = 1
+batch_size = 10
+learning_rate = 0.0001
+
